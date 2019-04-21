@@ -4,6 +4,7 @@ import time, threading
 from datetime import datetime
 
 def cal_next_month ():
+    # current time
     now = datetime.now()
     next_month = list()
     timestamp = datetime.timestamp(now)
